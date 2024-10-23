@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zurich Steakhouse</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Zurich Steakhouse</h1>
+            <p>Experience the finest cuts in the heart of Zurich</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Zurich Steakhouse has been serving premium quality steaks since 1995. Our commitment to excellence and passion for great food make us the top choice for steak lovers in Zurich.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Filet Mignon</h3>
+                    <p>Tender and lean, our filet mignon is a true delicacy</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Ribeye</h3>
+                    <p>Well-marbled for peak flavor, our ribeye is juicy and savory</p>
+                </div>
+                <div class="menu-item">
+                    <h3>T-Bone</h3>
+                    <p>The best of both worlds, featuring a strip steak and a tender filet</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="datetime-local" id="date" required>
+                <input type="number" id="guests" placeholder="Number of Guests" required>
+                <button type="submit">Reserve</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Steakhouse St, 8001 Zurich</p>
+            <p>Phone: +41 44 123 4567</p>
+            <p>Email: info@zurichsteakhouse.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Zurich Steakhouse. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

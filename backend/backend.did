@@ -1,0 +1,11 @@
+type Time = int;
+type Reservation = 
+ record {
+   date: Time;
+   guests: nat;
+   name: text;
+ };
+service : {
+  addReservation: (text, Time, nat) -> ();
+  getReservations: () -> (vec Reservation) query;
+}
